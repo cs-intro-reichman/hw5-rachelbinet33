@@ -46,7 +46,7 @@ public class Wordle {
         if(resultRow[i]!= 'G'){
              if (new String(secretArray).indexOf(c) != -1) {
              resultRow[i] = 'Y';
-             secretArray[new String(secretArray).indexOf(c)] = '_';
+             //secretArray[new String(secretArray).indexOf(c)] = '_';
         }
 
         else continue;
